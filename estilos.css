@@ -1,0 +1,97 @@
+/*# sourceMappingURL=estilos.css.map  background-repeat: no-repeat;
+    background-size: cover;*/
+    /* Quitamos el margen y el padding por defecto del body */
+body {
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f5;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Lawn {
+    color: grey;
+}
+
+/* Creamos una clase para el contenedor del logo, que tendrá un display de flex para centrar verticalmente el logo */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Colocamos el contenido del contenedor en el inicio de la primera columna */
+    justify-self: start;
+}
+/* Le damos un ancho del 50% al logo para que se ajuste al ancho del contenedor */
+.logo img {
+    width: 50%;
+}
+#contiene-foto {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+.perfil {
+    border-radius: 100%;
+    border: 5px solid black;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#datos{
+    font-size: 25px;
+}
+#contacto{
+    font-size: 25px;
+}
+#experiencia{
+    font-size: 25px;
+}
+#educacion{
+    font-size: 25px;
+}
+#conocimiento{
+    font-size: 25px;
+}
+#bdatos {
+    display: block;
+    margin-top: 20px;
+}
+
+#bcontacto {
+    display: none;
+    margin-top: 20px;
+}
+
+#bexperiencia {
+    display: none;
+    margin-top: 20px;
+}
+
+#beducacion {
+    display: none;
+    margin-top: 20px;
+}
+
+#bconocimiento {
+    display: none;
+    margin-top: 20px;
+}
+#nombre{
+    margin-top: 20px;
+}
+h4 {
+    margin-top: 100px;
+}
+#Certificado{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
